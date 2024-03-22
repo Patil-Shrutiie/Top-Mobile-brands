@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0;
+
+}
+
+#container{
+       width: 800;
+       height: 200;
+       display: flex;
+
+}
+
+#navbar{ 
+    height: 400 px;
+    background-color:grey;
+    color: whitesmoke;
+    position: fixed;
+    top: 0%;
+    width: 100%vw;
+    z-index: 40;
+
+}
+ button{ background-color:hsl(hue, saturation, lightness);
+color: black;}
+
+ #logo {
+    color:aquamarine;
+}
+
+ a{ margin-right: 200px;   
+    text-decoration: none;
+}
+ table{
+    max-width: 70%;
+    
+}
+.foot{
+    background-color:grey;
+    height: 20;
+    position: fixed;
+    bottom: 0%;
+    width: 100%vw;
+    z-index: 40;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.logo img:hover{
+    filter: hue-rotate(3px);
+}
+@keyframes fade {
+    0% {
+         opacity: 0;
+    }
+    100%{
+         opacity: 1;
+    }
+ }
